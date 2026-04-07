@@ -73,10 +73,81 @@ public class Functions {
     //     System.out.println("b = "+ b);
     // }
 
-    // From Call by Value
-    public static void main(String args[int a, int b]) {
-        int temp = a;
-        a 
+//     // From Call by Value
+//     public static void Swap(int a, int b) {
+//         int temp = a;
+//         a = b;
+//         b = temp;
+
+//         System.out.println("a = "+ a);
+//         System.out.println("b = "+ b);
+//     }
+//     public static void main(String args[]) {
+//         int a = 5;
+//         int b = 10;
+//         Swap(a, b);
+//     }
+    
+// }
+
+// import java.util.*;
+// public class Functions {
+
+//     public static void Swap(int a, int b) {
+//         int temp = a;
+//         a = b;
+//         b = temp;
+//     }
+//     public static void main(String args[]) {
+//         int a = 5;
+//         int b = 10;
+//         Swap(a, b);
+
+//         System.out.println("a = "+ a);// fuction me hi call hota h
+//         System.out.println("b = "+ b);
+//     }
+// }
+
+// Find the Products of a & b
+
+// import java.util.*;
+// public class Functions {
+
+//     public static int multiply(int a, int b) {
+        
+//         int prod = a*b;
+//         return prod;
+//     }
+
+//     public static void main(String[] args) {
+//         int a = 3;
+//         int b = 5;
+//         int prod = multiply(a, b);
+//         System.out.println("a * b = "+ prod);
+//         int product = multiply(20, 10);
+//         System.out.println("a * b = "+ product);
+
+//     }
+// }
+
+// Factorial of n Numbers
+
+import java.util.*;
+public class Functions {
+
+    public static int factorial(int n) {
+        int f = 1;
+        for(int i=1; i<=n; i++) {
+            f = f * i;
+        }
+        return f;
+    }
+    
+    public static void main(String args[]) {
+        System.out.println(factorial(7));
+
     }
 }
+
+
 
